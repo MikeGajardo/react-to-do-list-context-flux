@@ -1,3 +1,84 @@
 /* 
     General Styles
 */
+body {
+    background: url("https://thumbs.dreamstime.com/b/vector-wine-cellar-wooden-barrels-bottles-vector-wine-cellar-background-cozy-space-wooden-barrels-glass-bottles-alcohol-137955688.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 550px;
+    min-height: 600px;
+    background: url("https://images.squarespace-cdn.com/content/v1/5e790906fb4f1c39b757f96d/1611776701208-L0AQWACY3QUUB1REMCEX/Quest+Log+16x9.png") no-repeat center center fixed;
+    background-size: 1200px;
+    background-position-x: center;
+    background-position-y: top;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 25px;
+    padding-bottom: 40px;
+  }
+  h1 {
+    padding-top: 20px;
+    color: #fff;
+    font-size: 24px;
+  }
+
+.todo-form {
+    margin-bottom: 20px;
+    
+  }
+  
+  .input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid;
+    outline: none;
+    width: 400px;
+    background: transparent;
+    color: #fff;
+    font-family: 'Cinzel', serif;
+  }
+  ::placeholder {
+    color:white;
+    font-family: 'Cinzel', serif;
+  }
+
+  .todo-row {
+    color: #fff;
+    background: linear-gradient(
+      90deg,
+      rgb(152, 8, 128) 0%,
+      rgba(255, 84, 17, 1) 100%
+    );
+    border: 2px solid;
+  } 
+
+  .todo-text {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+  }
+
+  .close {
+    float: right;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-right: 30px;
+  }
+
+  .flames {
+  }
+    img {
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+    }
