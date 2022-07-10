@@ -2,7 +2,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
 			todosList: [
-				"learn a new language",
+				"Find good loot",
 		],
 		},
 		actions: { 
