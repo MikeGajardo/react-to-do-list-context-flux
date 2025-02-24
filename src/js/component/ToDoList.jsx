@@ -51,9 +51,9 @@ const ToDoForm = () => {
     return (
         <div>
       <div key={index} className="todo-text" onClick={(e) => deleteTodo(e)}>
-      <img src="https://boryokudragonz.io/home/boku.gif" alt="Green Beer"></img>
+      <img src="https://akumudragonz.io/images/master-plan/boku.png" alt="Green Beer"></img>
         {item}
-        <img onClick={(e) => deleteTodo(e)} src="https://boryokudragonz.io/home/boku.gif" alt="Green Beer"></img>
+        <img onClick={(e) => deleteTodo(e)} src="https://akumudragonz.io/images/master-plan/boku.png" alt="Green Beer"></img>
       </div>
       </div>
     );
